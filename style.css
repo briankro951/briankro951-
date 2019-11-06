@@ -1,16 +1,5 @@
-body{
-    background: purple;
-
-}
-
-h1{
-    color: turquose;
-    font-family: sans-serif;
-    border-bottom: 2px solid turquoise;
-
-}
-
-p{
-    color: aqua;
-    font-size: 2em;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
