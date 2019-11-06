@@ -21,12 +21,17 @@ font-size: 100px;
  font-size: 5px;
 }
 
-.container {
+.container-1 {
     display: flex;
     
 }
 
 .col {
+    width: 50%;
+    border: 1px solid white;
+}
+
+.emptytest {
     width: 50%;
     border: 1px solid white;
 }
@@ -38,5 +43,19 @@ font-size: 100px;
 }
 
 .bio-container h3 {
+    text-align: center;
+}
+
+.container-2 {
+    display: flex;
+    
+}
+.skills-container {
+    border: 1px solid white;
+    margin: 16px;
+    padding: 16px;
+}
+
+.skills-container h3 {
     text-align: center;
 }
