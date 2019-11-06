@@ -30,3 +30,13 @@ font-size: 100px;
     width: 50%;
     border: 1px solid white;
 }
+
+.bio-container{
+    border: 1px solid white;
+    margin: 16px;
+    padding: 16px;
+}
+
+.bio-container h3 {
+    text-align: center;
+}
