@@ -18,7 +18,8 @@ body {
 }
 
 .hero-text h1 {
-font-size: 8vw;
+font-size: 5vw;
+text-align: center;
 }
 
 .hero-text h3 {
