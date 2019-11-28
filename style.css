@@ -25,21 +25,22 @@ font-size: 100px;
     display: flex;
     margin: 10px;
     padding: 10px;
+    border: 1px solid green;
     
 }
 
 .col {
     width: 50%;
-    border: 1px solid white;
+    border: 1px solid red;
 }
 
 .emptytest {
     width: 50%;
-    border: 1px solid white;
+    border: 1px solid green;
 }
 
 .bio-container {
-    border: 1px solid white;
+    border: 1px solid blue;
     margin: 16px;
     padding: 16px;
 }
@@ -48,6 +49,17 @@ font-size: 100px;
     text-align: center;
 }
 
+.image1container {
+    width: 50%;
+    border: 1px solid yellow;
+    margin: 30px
+}
+
+.image1{
+    border: 1px solid purple;
+    width: 50%;
+    margin: 16px;
+}
 .container-2 {
     display: flex;
     margin: 10px;
