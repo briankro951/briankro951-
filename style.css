@@ -8,9 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
-
-/* @media screen and (max-width: 1024px) {
-    your font  style goes here */
     
 
 .hero-text {
@@ -52,6 +49,8 @@ text-align: center;
     border: 1px solid blue;
     margin: 16px;
     padding: 16px;
+    width: 30vw;
+    height: 50vw;
 }
 
 .bio-container h3 {
@@ -60,27 +59,23 @@ text-align: center;
 }
 
 .image1-container {
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid yellow;
     flex-grow: 1;
-    padding: 30px;
+    padding: 1px;
 }
 
 .portrait-1{
     background-image: url("assets/poster7.png");
     margin-left: auto;
     margin-right: auto;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex: wrap; */
     background-size: cover;
     background-position: top;
     width: 46vw;
     height: 50vw;
-    /* width: 400px;
-    height: 400px; */
     flex-grow: 1;
-    /* border: 1px solid purple; */
+
 }
 
 .container-2 {
@@ -92,7 +87,8 @@ text-align: center;
 }
 .skills-container {
     border: 1px solid white;
-    margin: 16px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 16px;
 }
 
