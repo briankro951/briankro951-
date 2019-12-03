@@ -28,7 +28,7 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     text-align: center;
     
 
@@ -38,22 +38,24 @@ text-align: center;
 .col {
     display: flex;
     width: 500px;
-    height: 550px;
+    height: 650px;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    border: 1px solid greenyellow;
+    padding: 20px;
+    /* border: 1px solid greenyellow; */
 }
 
 
 
 .bio-1 {
     text-align: center;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     /* margin: 16px; */
-    /* padding: 16px; */
-    width: 500px;
-    height: 550px;
+    padding: 20px;
+    margin: 20px;
+    width: 650px;
+    height: 600px;
 }
 .col-1-L{
 
@@ -82,13 +84,10 @@ text-align: center;
 .portrait-1{
     background-image: url("assets/poster7.png");
     background-size: cover;
-    width: 500px;
-    height: 550px;
-    /* flex-grow: 1; */
-    border: 4px solid red;
-     /* margin-left: auto;
-    margin-right: auto; */
     background-position: top;
+    width: 650px;
+    height: 650px;
+    
 }
 .skills-container {
     /* border: 1px solid white; */
