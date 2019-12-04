@@ -12,22 +12,29 @@ body {
     
 
 .hero-text {
-    margin: 64px;
+    margin-left: 64px;
+    margin-right: 64px;
+    /* border: 1px solid yellow; */
 }
 
 .hero-text h1 {
-font-size: 5vw;
-text-align: center;
+    font-size: 5vw;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 0;
+    text-align: center;
+    /* border: 1px solid green; */
 }
 
 .hero-text h3 {
- font-size: 5px;
+    font-size: 5px;
 }
 
 nav{
     border-bottom: flex;
     padding: 16px;
     margin-bottom: 32px;
+    /* border: 1px solid red; */
 }
 
 nav ul{
@@ -72,20 +79,32 @@ nav ul{
 
 .bio-1 {
     text-align: center;
-    /* border: 5px solid blue; */
-    /* margin: 16px; */
-    padding: 40px;
-    margin: 40px;
-    width: 650px;
-    height: 600px;
+    /* border: 40px solid blue; */
+    /* padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-left: 40px; */
+    /* width: 650px; */
 }
-.col-1-L{
+/* .col-1-L{
+
+} */
+
+.col-1-R p{
+    /* border:solid 1px olivedrab; */
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0;
 
 }
 
 .col-1-R{
-
+    /* border:solid 1px white; */
+    flex-direction: column;
 }
+
 .container-2 {
     /* justify-content: center; */
     margin: 60px;
