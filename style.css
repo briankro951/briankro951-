@@ -52,7 +52,7 @@ body {
     list-style-type: none;
   }
   .link a{
-      color: rgb(0,0,0);
+      color: rgb(255,0,0);
       text-decoration: none;
   }
 
@@ -102,6 +102,12 @@ body {
     box-shadow: 1px 1px 5px 5px blue;
   }
   
+  .second-list ul{
+    text-align: right;
+
+  }
+
+
   .hair {
     opacity: 0.1;
     width: 100px;
