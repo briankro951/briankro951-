@@ -10,7 +10,7 @@ body {
     /* font-size: 35px; */
     color: white;
     background-color: rgba(190, 190, 190, 190);
-    font-weight: 100;
+
 }
 
 #linux {
@@ -18,9 +18,8 @@ body {
   }
   .center {
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     margin: 0px;
-    font-weight: 100;
   }
   
   .center-image {
@@ -69,15 +68,20 @@ body {
     padding: 10px;
     margin: 20px;
   }
-  .list ul{
+  .list{
     padding: 10px;
     margin: 20px;
+    font-size: 30px;
     display: inline-block;
     line-height: 100%;
     text-align: right;
     vertical-align: top;
+  }
+
+  .list ul {
     list-style-type: none;
   }
+
   .memes1 {
     float: left;
     padding: 10px;
@@ -101,12 +105,6 @@ body {
   #garfield {
     box-shadow: 1px 1px 5px 5px blue;
   }
-  
-  .second-list ul{
-    text-align: right;
-
-  }
-
 
   .hair {
     opacity: 0.1;
@@ -139,6 +137,10 @@ body {
     margin-right: auto;
     width: 75%;
   }
+
+  /* .so-much-space{
+    margin: 100px;
+  } */
   
   .gridshit {
     display: flex;
