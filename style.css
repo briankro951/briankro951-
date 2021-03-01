@@ -7,7 +7,7 @@
         /* background-color: black; */
         /* font-size: 35px; */
         color: white;
-        background-color: rgba(5, 5, 5, 5);
+        background-color: rgba(7, 7, 15, 7);
     }
     
     #linux {
@@ -31,12 +31,12 @@
     
     .site-header {
         /* text-align: right;
-  margin: 20px; */
+        margin: 20px; */
         display: flex;
         justify-content: space-between;
         border: 1px solid white;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 300px;
+        padding-right: 300px;
     }
     
     .site-header-links {
@@ -48,8 +48,14 @@
     }
     
     .site-header-links a {
+        font-size: xx-large;
         color: rgb(255, 0, 0);
         text-decoration: none;
+    }
+    
+    .header-line {
+        border: 1px solid grey;
+        padding: none;
     }
     
     .social {
