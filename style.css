@@ -71,10 +71,11 @@
         /* padding: 20px; */
         list-style-type: none;
     }
-    /* .link a {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-} */
+    
+    .link a {
+        color: rgb(255, 0, 255);
+        text-decoration: none;
+    }
     
     .link2 {
         color: black
