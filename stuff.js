@@ -1,9 +1,12 @@
+$(document).ready(mainCode)
+
 function toggleMute() {
-    var video = document.getElementById("video1")
+
+    var video = document.getElementById("myVideo")
 
     if (video.muted) {
-        video.mute = false;
+        video.muted = false;
     } else {
-        video.mute = true;
+        video.muted = true;
     }
 }
