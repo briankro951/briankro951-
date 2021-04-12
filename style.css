@@ -1,39 +1,276 @@
-            @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
-            body {
-                margin: 32px;
-                /* padding: 0; */
-                font-weight: 100;
-                font-family: "Alegreya Sans", sans-serif;
-                /* background-color: black; */
-                /* font-size: 35px; */
-                color: white;
-                background-color: rgba(225, 225, 225, 255);
-            }
-            
-            .test-box {
-                border: 2px solid white;
-            }
-            
-            .home-header-uge-name {
-                /* border: 2px solid white; */
-                align-items: center;
-                padding-top: 25%;
-            }
-            
-            .my-uge-name {
-                text-align: left;
-                font-size: 80px;
-                margin: 0px;
-                color: rgb(50, 50, 50)
-            }
-            
-            .my-uge-name-home {
-                text-align: center;
-                font-size: 130px;
-                margin: 0px;
-                color: rgb(50, 50, 50)
-            }
-            
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+        body {
+            margin: 32px;
+            /* padding: 0; */
+            font-weight: 100;
+            font-family: "Alegreya Sans", sans-serif;
+            /* background-color: black; */
+            /* font-size: 35px; */
+            color: white;
+            background-color: #e0e0e0;
+        }
+        
+        .test-box {
+            border: 2px solid white;
+        }
+        
+        .home-header-uge-name {
+            /* border: 2px solid white; */
+            align-items: center;
+            padding-top: 20%;
+        }
+        
+        .my-uge-name {
+            text-align: left;
+            font-size: 80px;
+            margin: 0px;
+            color: #323232
+        }
+        
+        .my-uge-name a {
+            text-decoration: none;
+            color: rgb(50, 50, 50);
+        }
+        
+        .my-uge-name-home {
+            text-align: center;
+            font-size: 130px;
+            margin: 0px;
+            color: rgb(50, 50, 50)
+        }
+        
+        .my-uge-name-home a {
+            text-decoration: none;
+            color: rgb(50, 50, 50);
+        }
+        
+        .site-header {
+            /* border: 1px solid white; */
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .site-header-links {
+            /* display: inline; */
+            /* padding: 20px; */
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+        
+        .site-header-links-home {
+            /* display: inline; */
+            /* padding: 20px; */
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+        
+        .site-header-links-home a {
+            font-size: 50px;
+            color: rgb(125, 20, 20);
+            text-decoration: none;
+        }
+        
+        .site-header-links a {
+            font-size: xx-large;
+            color: rgb(125, 20, 20);
+            align-content: center;
+        }
+        
+        .header-line {
+            border: 1px solid grey;
+            padding: none;
+        }
+        
+        .socials {
+            border: white 2px solid;
+        }
+        
+        .aboutMe {
+            text-align: left;
+            font-size: 30px;
+            color: rgb(50, 50, 50);
+        }
+        
+        .video-style {
+            border: 2px solid black;
+        }
+        
+        .social {
+            /* text-align: right;
+    margin: 20px; */
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .socse {
+            /* text-align: center; */
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            list-style-type: none;
+        }
+        
+        .link {
+            /* display: inline; */
+            /* padding: 20px; */
+            list-style-type: none;
+        }
+        
+        .link a {
+            color: rgb(255, 0, 255);
+            text-decoration: none;
+        }
+        
+        .link2 {
+            color: black
+        }
+        
+        .link3 {
+            color: white;
+            text-align: center;
+        }
+        
+        .headerLinks {
+            color: white;
+            text-align: center;
+        }
+        
+        .shit {
+            padding: 10px;
+            margin: 20px;
+        }
+        
+        .list {
+            padding: 10px;
+            margin: 20px;
+            font-size: 30px;
+            display: inline-block;
+            line-height: 100%;
+            text-align: right;
+            vertical-align: top;
+        }
+        
+        .list ul {
+            list-style-type: none;
+        }
+        
+        .memes1 {
+            float: left;
+            padding: 10px;
+            margin: 20px;
+            line-height: 100%;
+            text-align: left;
+        }
+        
+        #tumblr {
+            box-shadow: 5px 5px 2px 2px red;
+        }
+        
+        .memes2 {
+            float: right;
+            padding: 10px;
+            margin: 20px;
+            line-height: 100%;
+            text-align: right;
+        }
+        
+        #garfield {
+            box-shadow: 1px 1px 5px 5px blue;
+        }
+        
+        .hair {
+            opacity: 0.1;
+            width: 100px;
+            position: fixed;
+            top: 400px;
+            left: 30px;
+        }
+        
+        #outro {
+            padding: 100px;
+            clear: right;
+        }
+        
+        #bye {
+            padding: 20px;
+            text-align: right;
+            border: 1px solid yellow;
+        }
+        
+        .line1 {
+            border: 1px solid grey;
+        }
+        
+        div .aboutme {
+            background-color: rgb(220, 220, 220);
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+        /* .so-much-space{
+    margin: 100px;
+  } */
+        
+        .gridshit {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .grids {
+            width: 200px;
+            height: 200px;
+            flex-grow: 1;
+            background-position: center;
+            text-align: center;
+        }
+        
+        .grids p {
+            margin: 0;
+        }
+        
+        .overlay {
+            position: relative;
+            height: 100%;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        .overlay:hover {
+            opacity: 1;
+        }
+        
+        .text {
+            /*border: 10px solid white;*/
+            color: white;
+            position: relative;
+        }
+        
+        .opaque {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0.5;
+        }
+        
+        ._archive {
             .center-image {
                 display: block;
                 margin-left: auto;
@@ -41,307 +278,76 @@
                 width: 50%;
                 box-shadow: 5px 5px 2px 2px pink;
             }
-            
-            .site-header {
-                /* border: 1px solid white; */
-                display: flex;
-                justify-content: space-between;
-                padding-left: 100px;
-                padding-right: 100px;
-            }
-            
-            .site-header-links {
-                /* display: inline; */
-                /* padding: 20px; */
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-            }
-            
-            .site-header-links-home {
-                /* display: inline; */
-                /* padding: 20px; */
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-            }
-            
-            .site-header-links-home a {
-                font-size: 50px;
-                color: rgb(125, 20, 20);
-                text-decoration: none;
-            }
-            
-            .site-header-links a {
-                font-size: xx-large;
-                color: rgb(125, 20, 20);
-                text-decoration: none;
-            }
-            
-            .header-line {
-                border: 1px solid grey;
-                padding: none;
-            }
-            
-            .aboutMe {
-                text-align: left;
-                font-size: 30px;
-                color: rgb(50, 50, 50);
-            }
-            
-            .video-style {
-                border: 2px solid black;
-            }
-            
-            .social {
-                /* text-align: right;
-    margin: 20px; */
-                display: flex;
-                justify-content: space-between;
-            }
-            
-            .socse {
-                /* text-align: center; */
-                color: white;
-                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-                list-style-type: none;
-            }
-            
-            .link {
-                /* display: inline; */
-                /* padding: 20px; */
-                list-style-type: none;
-            }
-            
-            .link a {
-                color: rgb(255, 0, 255);
-                text-decoration: none;
-            }
-            
-            .link2 {
-                color: black
-            }
-            
-            .link3 {
-                color: white;
-                text-align: center;
-            }
-            
-            .headerLinks {
-                color: white;
-                text-align: center;
-            }
-            
-            .shit {
-                padding: 10px;
-                margin: 20px;
-            }
-            
-            .list {
-                padding: 10px;
-                margin: 20px;
-                font-size: 30px;
-                display: inline-block;
-                line-height: 100%;
-                text-align: right;
-                vertical-align: top;
-            }
-            
-            .list ul {
-                list-style-type: none;
-            }
-            
-            .memes1 {
-                float: left;
-                padding: 10px;
-                margin: 20px;
-                line-height: 100%;
-                text-align: left;
-            }
-            
-            #tumblr {
-                box-shadow: 5px 5px 2px 2px red;
-            }
-            
-            .memes2 {
-                float: right;
-                padding: 10px;
-                margin: 20px;
-                line-height: 100%;
-                text-align: right;
-            }
-            
-            #garfield {
-                box-shadow: 1px 1px 5px 5px blue;
-            }
-            
-            .hair {
-                opacity: 0.1;
+            .ph1 {
+                /* background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F44026593_2085548868132942_8583590976843415552_o.jpg?v=1571203829375"); */
                 width: 100px;
-                position: fixed;
-                top: 400px;
-                left: 30px;
+                height: 100px;
+                background-size: cover;
             }
-            
-            #outro {
-                padding: 100px;
-                clear: right;
-            }
-            
-            #bye {
-                padding: 20px;
-                text-align: right;
-                border: 1px solid yellow;
-            }
-            
-            .line1 {
-                border: 1px solid grey;
-            }
-            
-            div .aboutme {
-                background-color: rgb(220, 220, 220);
-                padding: 30px;
-                text-align: center;
-                font-size: 30px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 75%;
-            }
-            /* .so-much-space{
-    margin: 100px;
-  } */
-            
-            .gridshit {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            
-            .grids {
+            .ph2 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F70506553_2604450049576152_4108918911989186560_o.jpg?v=1571203832915");
                 width: 200px;
                 height: 200px;
-                flex-grow: 1;
-                background-position: center;
-                text-align: center;
+                background-size: cover;
             }
-            
-            .grids p {
-                margin: 0;
+            .ph3 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42310947_2056902920997537_188664890972438528_o.jpg?v=1571203833993");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
-            
-            .overlay {
-                position: relative;
-                height: 100%;
-                top: 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                opacity: 0;
-                transition: opacity 0.3s ease-in;
+            .ph4 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F65021080_2453453998009092_7498612040928329728_o.jpg?v=1571203834005");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
-            
-            .overlay:hover {
-                opacity: 1;
+            .ph5 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53405386_2278616958826131_5851639151182479360_o.jpg?v=1571203834083");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
-            
-            .text {
-                /*border: 10px solid white;*/
-                color: white;
-                position: relative;
+            .ph6 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42426797_2056347264386436_5820543162757677056_o.jpg?v=1571203834157");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
-            
-            .opaque {
-                position: absolute;
-                top: 0;
-                left: 0;
-                background-color: black;
-                height: 100%;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                opacity: 0.5;
+            .ph7 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60817997_2406440342710458_166013993662545920_o.jpg?v=1571203835291");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
-            
-            ._archive {
-                .center-image {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 50%;
-                    box-shadow: 5px 5px 2px 2px pink;
-                }
-                .ph1 {
-                    /* background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F44026593_2085548868132942_8583590976843415552_o.jpg?v=1571203829375"); */
-                    width: 100px;
-                    height: 100px;
-                    background-size: cover;
-                }
-                .ph2 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F70506553_2604450049576152_4108918911989186560_o.jpg?v=1571203832915");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph3 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42310947_2056902920997537_188664890972438528_o.jpg?v=1571203833993");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph4 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F65021080_2453453998009092_7498612040928329728_o.jpg?v=1571203834005");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph5 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53405386_2278616958826131_5851639151182479360_o.jpg?v=1571203834083");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph6 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42426797_2056347264386436_5820543162757677056_o.jpg?v=1571203834157");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph7 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60817997_2406440342710458_166013993662545920_o.jpg?v=1571203835291");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph8 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F31882979_1865026140185217_8585281080834129920_n.jpg?v=1571203835563");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph9 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60980888_2406440366043789_417035869833134080_o.jpg?v=1571203842629");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph10 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F58698694_592827204557751_5405604032770579511_n.jpg?v=1571212955459");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph11 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53734826_582252668945677_3492109734874021599_n.jpg?v=1571212955690");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
-                .ph12 {
-                    background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F094e0e59-544c-40e0-b9bf-6355ee325739.image.jpeg?v=1571214975101");
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                }
+            .ph8 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F31882979_1865026140185217_8585281080834129920_n.jpg?v=1571203835563");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
             }
+            .ph9 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60980888_2406440366043789_417035869833134080_o.jpg?v=1571203842629");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
+            }
+            .ph10 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F58698694_592827204557751_5405604032770579511_n.jpg?v=1571212955459");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
+            }
+            .ph11 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53734826_582252668945677_3492109734874021599_n.jpg?v=1571212955690");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
+            }
+            .ph12 {
+                background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F094e0e59-544c-40e0-b9bf-6355ee325739.image.jpeg?v=1571214975101");
+                width: 200px;
+                height: 200px;
+                background-size: cover;
+            }
+        }
