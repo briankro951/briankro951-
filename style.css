@@ -48,12 +48,21 @@
      color: rgb(50, 50, 50);
  }
  
- .subheader {
+ .subheader-home {
      text-align: center;
      font-size: 20px;
      color: rgb(50, 50, 50);
      letter-spacing: 25px;
      margin-bottom: 40px;
+ }
+ 
+ .subheader {
+     text-align: left;
+     margin-left: 6px;
+     font-size: 10px;
+     color: rgb(50, 50, 50);
+     letter-spacing: 12px;
+     /* margin-bottom: 40px; */
  }
  
  .site-header {
@@ -138,7 +147,8 @@
  }
  
  .aboutMe {
-     border: red 2px solid;
+     /* border: red 2px solid; */
+     padding-left: 25px;
      max-width: 1000px;
      display: flexbox;
      text-align: left;
