@@ -33,19 +33,31 @@
  }
  
  .my-uge-name-home {
+     /* border: red 2px solid; */
      text-align: center;
      font-size: 130px;
      margin: 0px;
+     padding: 0px;
      color: rgb(50, 50, 50);
  }
  
  .my-uge-name-home a {
+     /* border: blue 2px solid; */
+     padding: 0px;
      text-decoration: none;
      color: rgb(50, 50, 50);
  }
  
+ .subheader {
+     text-align: center;
+     font-size: 20px;
+     color: rgb(50, 50, 50);
+     letter-spacing: 25px;
+     margin-bottom: 40px;
+ }
+ 
  .site-header {
-     border: 1px solid white;
+     /* border: 1px solid white; */
      display: flex;
      text-align: center;
      justify-content: space-between;
@@ -127,7 +139,6 @@
  
  .aboutMe {
      border: red 2px solid;
-     /* width: 1000px; */
      max-width: 1000px;
      display: flexbox;
      text-align: left;
