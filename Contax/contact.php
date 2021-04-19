@@ -12,11 +12,10 @@ $email_body = "User Name : $name.\n".
                     "User Message: $message.\n";
 
     $to = "briankro951@gmail.com";
-
-    $header = "From: $email_from \r\n"
+    $header = "From: $email_from \r\n";
     $header .= "Reply-To: $visitor_email r\n";
 
-    mail($tom$email_subject,$email_body,$header)
-    header("Location: index.html");
+    mail($to,$email_subject,$email_body,$header)
+    header("Location: contact.html");
 
 ?>
