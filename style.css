@@ -65,7 +65,7 @@
      /* margin-bottom: 40px; */
  }
  
- .site-header {
+ .site-nav {
      /* border: 1px solid white; */
      display: flex;
      text-align: center;
@@ -74,7 +74,7 @@
      padding-right: 30px;
  }
  
- .site-header-links {
+ .site-nav-links {
      /* border: red 1px solid; */
      /* display: inline; */
      margin-left: 20px;
@@ -84,7 +84,7 @@
      list-style-type: none;
  }
  
- .site-header-links-home {
+ .site-nav-links-home {
      /* border: red 1px solid; */
      /* display: inline; */
      align-items: center;
@@ -92,7 +92,7 @@
      list-style-type: none;
  }
  
- .site-header-links-home a {
+ .site-nav-links-home a {
      border: rgba(0, 0, 0, 0) 5px solid;
      /* border: red 1px solid; */
      font-size: 50px;
@@ -101,11 +101,11 @@
      padding: 20px;
  }
  
- .site-header-links-home a:hover {
+ .site-nav-links-home a:hover {
      border: rgb(50, 50, 50) 5px solid
  }
  
- .site-header-links a {
+ .site-nav-links a {
      border: rgba(0, 0, 0, 0) 5px solid;
      font-size: xx-large;
      color: rgb(125, 20, 20);
@@ -117,11 +117,11 @@
      padding-bottom: 5px;
  }
  
- .site-header-links a:hover {
+ .site-nav-links a:hover {
      border: rgb(50, 50, 50) 5px solid
  }
  
- .header-line {
+ .nav-line {
      position: relative;
      /* transform: translate(0px, 0px); */
      border: 2px rgb(50, 50, 50) solid;
@@ -129,11 +129,11 @@
      margin: 0px
  }
  
- .header-line.top {
+ .nav-line.top {
      transform: translate(0px, 12px);
  }
  
- .header-line.bottom {
+ .nav-line.bottom {
      transform: translate(0px, -12px)
  }
  
