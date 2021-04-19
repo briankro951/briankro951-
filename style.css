@@ -92,28 +92,53 @@
  }
  
  .site-header-links-home a {
+     border: rgba(0, 0, 0, 0) 5px solid;
      /* border: red 1px solid; */
      font-size: 50px;
      color: rgb(125, 20, 20);
      text-decoration: none;
-     padding-left: 40px;
-     padding-right: 40px;
+     padding: 20px;
+ }
+ 
+ .site-header-links-home a:hover {
+     border: rgb(50, 50, 50) 5px solid
  }
  
  .site-header-links a {
+     border: rgba(0, 0, 0, 0) 5px solid;
      font-size: xx-large;
      color: rgb(125, 20, 20);
      align-content: center;
      text-decoration: none;
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ .site-header-links a:hover {
+     border: rgb(50, 50, 50) 5px solid
  }
  
  .header-line {
-     border: 1px solid grey;
+     position: relative;
+     /* transform: translate(0px, 0px); */
+     border: 2px rgb(50, 50, 50) solid;
      padding: none;
+     margin: 0px
+ }
+ 
+ .header-line.top {
+     transform: translate(0px, 12px);
+ }
+ 
+ .header-line.bottom {
+     transform: translate(0px, -12px)
  }
  
  .socials {
      /* border: red 2px solid; */
+     padding-top: 10px;
      display: flex;
      justify-content: center;
  }
@@ -121,13 +146,13 @@
  .fa {
      /* border: indigo 2px solid; */
      padding: 7px;
-     padding-right: 6.9px;
+     padding-right: 6.8px;
      font-size: 49px;
      width: 50px;
      text-align: center;
      text-decoration: none;
      margin: 5px 5px;
-     border-radius: 10%;
+     border-radius: 20%;
  }
  
  .fa:hover {
@@ -145,15 +170,37 @@
      background: #323232;
      color: #e1e1e1;
  }
+ /* Bio Page */
  
- .aboutMe {
+ .about-me-top {
+     /* border: blue 2px solid; */
+     flex-wrap: wrap;
+     padding: 20px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .about-me-text {
      /* border: red 2px solid; */
      padding-left: 25px;
-     max-width: 1000px;
-     display: flexbox;
+     max-width: 850px;
+     /* display: flexbox; */
      text-align: left;
      font-size: 30px;
      color: rgb(50, 50, 50);
+ }
+ 
+ .about-me-photo {
+     border: solid green 2px;
+     background-color: black;
+     background-image: url("/assets/triangulated-image.png");
+     background-position: center;
+     max-width: 800px;
+     min-width: 400px;
+     max-height: 800px;
+     min-height: 400px;
+     background-size: cover;
+     flex-grow: 1;
  }
  
  .video-style {
@@ -256,17 +303,6 @@
  
  .line1 {
      border: 1px solid grey;
- }
- 
- div .aboutme {
-     background-color: rgb(220, 220, 220);
-     padding: 30px;
-     text-align: center;
-     font-size: 30px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 75%;
  }
  
  .gridshit {
