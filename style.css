@@ -111,7 +111,7 @@
  .site-nav-links a {
      border: rgba(0, 0, 0, 0) 5px solid;
      color: rgb(125, 20, 20);
-     font-size: 3vmin;
+     font-size: 2vmin;
      align-items: center;
      display: flex;
      text-decoration: none;
@@ -189,19 +189,19 @@
      /* border: red 2px solid; */
      max-width: 550px;
      /* display: flexbox; */
-     margin-right: 2%;
+     margin-right: 50px;
      text-align: justify;
-     font-size: 30px;
+     font-size: 22px;
      color: rgb(50, 50, 50);
  }
  
  .about-me-photo-main {
      /* border: solid green 2px; */
-     margin-top: 100px;
+     margin-top: 80px;
      background-color: black;
      background-image: url("/assets/triangulated-image.png");
      background-position: center;
-     max-width: 650px;
+     max-width: 500px;
      min-width: 400px;
      max-height: 800px;
      min-height: 400px;
@@ -221,7 +221,7 @@
      /* border: solid green 2px; */
      background-image: url("/assets/ESPNight1.jpg");
      background-position: top;
-     max-width: 650px;
+     max-width: 500px;
      min-width: 400px;
      height: 800px;
      background-size: cover;
@@ -233,7 +233,7 @@
      /* border: solid green 2px; */
      background-image: url("/assets/playdolls_portrait.jpg");
      background-position: top;
-     max-width: 650px;
+     max-width: 500px;
      min-width: 400px;
      height: 800px;
      background-size: cover;
