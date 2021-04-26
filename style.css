@@ -175,11 +175,27 @@
  }
  /* Music Page */
  
+ .main-frame {
+     margin: auto;
+     max-width: 1200px;
+ }
+ 
  .soundcloud {
      /* border: red solid 2px; */
-     max-width: 1200px;
-     margin: auto;
      margin-bottom: 10px;
+ }
+ 
+ .sections {
+     color: rgb(50, 50, 50);
+     text-align: left;
+     font-size: 30px;
+ }
+ 
+ .youtube-embeded {
+     align-content: center;
+     border: solid red 2px;
+     margin: auto;
+     max-width: 1120px;
  }
  /* Bio Page */
  
