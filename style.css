@@ -215,6 +215,12 @@ body {
     max-width: 1200px;
 }
 
+.instagram-blocks {
+    /* border: solid red 2px; */
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Bio Page */
 
