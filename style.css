@@ -1,501 +1,522 @@
- @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
- body {
-     margin: 32px;
-     /* padding: 0; */
-     font-weight: 100;
-     font-family: "Alegreya Sans", sans-serif;
-     /* background-color: black; */
-     /* font-size: 35px; */
-     color: white;
-     background-color: #e0e0e0;
- }
- /* Home Page */
- 
- .home-header-uge-name {
-     /* border: 2px solid white; */
-     align-items: center;
-     padding-top: 15%;
- }
- 
- .my-uge-name-home {
-     /* border: red 2px solid; */
-     text-align: center;
-     font-size: 7vw;
-     margin: 0px;
-     padding: 0px;
-     color: rgb(50, 50, 50);
- }
- 
- .my-uge-name-home a {
-     /* border: blue 2px solid; */
-     padding: 0px;
-     text-decoration: none;
-     color: rgb(50, 50, 50);
- }
- 
- .subheader-home {
-     text-align: center;
-     font-size: 1vw;
-     color: rgb(50, 50, 50);
-     letter-spacing: 25px;
-     margin-bottom: 40px;
- }
- 
- .site-nav-links-home {
-     /* border: red 1px solid; */
-     /* display: inline; */
-     align-items: center;
-     display: flex;
-     list-style-type: none;
- }
- 
- .site-nav-links-home a {
-     border: rgba(0, 0, 0, 0) 5px solid;
-     /* border: red 1px solid; */
-     font-size: 2.5vw;
-     color: rgb(125, 20, 20);
-     text-decoration: none;
-     padding-left: 40px;
-     padding-right: 40px;
- }
- 
- .socials {
-     /* border: red 2px solid; */
-     padding-top: 10px;
-     display: flex;
-     justify-content: center;
- }
- 
- .fa {
-     /* border: indigo 2px solid; */
-     padding: 7px;
-     padding-right: 6.8px;
-     font-size: 49px;
-     width: 50px;
-     text-align: center;
-     text-decoration: none;
-     margin: 5px 5px;
-     border-radius: 20%;
- }
- 
- .fa:hover {
-     background-color: rgb(100, 10, 10);
-     opacity: 1;
- }
- 
- .fa-facebook {
-     /* border: hotpink 2px solid; */
-     background: #323232;
-     color: #e1e1e1;
- }
- 
- .fa-instagram {
-     background: #323232;
-     color: #e1e1e1;
- }
- 
- .site-nav-links-home a:hover {
-     border: rgb(50, 50, 50) 5px solid
- }
- /* Default Header and Nav for Rest of Website */
- 
- .my-uge-name {
-     /* border: brown solid 2px; */
-     text-align: left;
-     font-size: 6vmin;
-     /* font-size: 2.5vmax; */
-     margin: 0px;
-     color: #323232
- }
- 
- .my-uge-name a {
-     text-decoration: none;
-     color: rgb(50, 50, 50);
- }
- 
- .subheader {
-     text-align: left;
-     margin-left: 6px;
-     font-size: 1.0vmin;
-     color: rgb(50, 50, 50);
-     letter-spacing: 12px;
-     /* margin-bottom: 40px; */
- }
- 
- .site-nav {
-     /* border: 1px solid white; */
-     display: flex;
-     text-align: center;
-     justify-content: center;
-     padding-left: 30px;
-     padding-right: 30px;
- }
- 
- .site-nav-links {
-     /* border: red 1px solid; */
-     /* display: inline; */
-     margin-left: 20px;
-     margin-right: 20px;
-     display: flex;
-     justify-content: space-between;
-     list-style-type: none;
- }
- 
- .site-nav-links a {
-     border: rgba(0, 0, 0, 0) 5px solid;
-     color: rgb(125, 20, 20);
-     font-size: 2vmin;
-     align-items: center;
-     display: flex;
-     text-decoration: none;
-     padding-right: 15px;
-     padding-left: 15px;
-     padding-top: 5px;
-     padding-bottom: 5px;
- }
- 
- .site-nav-links a:hover {
-     border: rgb(50, 50, 50) 5px solid
- }
- 
- .nav-line {
-     position: relative;
-     /* transform: translate(0px, 0px); */
-     border: 2px rgb(50, 50, 50) solid;
-     padding: none;
-     margin: 0px
- }
- 
- .nav-line.top {
-     transform: translate(0px, 12px);
- }
- 
- .nav-line.bottom {
-     transform: translate(0px, -12px)
- }
- /* Music Page */
- 
- .main-frame {
-     margin: auto;
-     max-width: 1200px;
- }
- 
- .soundcloud {
-     /* border: red solid 2px; */
-     margin-bottom: 10px;
- }
- 
- .sections {
-     color: rgb(50, 50, 50);
-     text-align: left;
-     font-size: 30px;
- }
- 
- .youtube-embeded {
-     align-content: center;
-     border: solid red 2px;
-     margin: auto;
-     max-width: 1120px;
- }
- /* Bio Page */
- 
- .about-me-top {
-     /* border: blue 2px solid; */
-     flex-wrap: wrap;
-     padding: 20px;
-     display: flex;
-     justify-content: center;
- }
- 
- .about-me-text {
-     /* border: red 2px solid; */
-     max-width: 550px;
-     /* display: flexbox; */
-     margin-right: 50px;
-     text-align: justify;
-     font-size: 22px;
-     color: rgb(50, 50, 50);
- }
- 
- .about-me-photo-main {
-     /* border: solid green 2px; */
-     margin-top: 80px;
-     background-color: black;
-     background-image: url("/assets/triangulated-image.png");
-     background-position: center;
-     max-width: 500px;
-     min-width: 250px;
-     max-height: 800px;
-     min-height: 400px;
-     background-size: cover;
-     flex-grow: 1;
- }
- 
- .about-me-2 {
-     /* border: blue 2px solid; */
-     flex-wrap: wrap;
-     padding: 20px;
-     display: flex;
-     justify-content: center;
- }
- 
- .about-me-photo-1 {
-     /* border: solid green 2px; */
-     background-image: url("/assets/ESPNight1.jpg");
-     background-position: top;
-     max-width: 500px;
-     min-width: 200px;
-     height: 600px;
-     background-size: cover;
-     margin: 10px;
-     flex-grow: 1;
- }
- 
- .about-me-photo-2 {
-     /* border: solid green 2px; */
-     background-image: url("/assets/playdolls_portrait.jpg");
-     background-position: top;
-     max-width: 500px;
-     min-width: 200px;
-     height: 600px;
-     background-size: cover;
-     margin: 10px;
-     flex-grow: 1;
- }
- /* Contact Page */
- 
- .video-style {
-     border: 2px solid black;
- }
- 
- .socse {
-     text-align: center;
-     color: white;
-     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-     list-style-type: none;
- }
- 
- .link {
-     /* display: inline; */
-     /* padding: 20px; */
-     list-style-type: none;
- }
- 
- .link a {
-     color: rgb(255, 0, 255);
-     text-decoration: none;
- }
- 
- .link2 {
-     color: black
- }
- 
- .link3 {
-     color: white;
-     text-align: center;
- }
- 
- .headerLinks {
-     color: white;
-     text-align: center;
- }
- 
- .shit {
-     padding: 10px;
-     margin: 20px;
- }
- 
- .list {
-     padding: 10px;
-     margin: 20px;
-     font-size: 30px;
-     display: inline-block;
-     line-height: 100%;
-     text-align: right;
-     vertical-align: top;
- }
- 
- .list ul {
-     list-style-type: none;
- }
- 
- .memes1 {
-     float: left;
-     padding: 10px;
-     margin: 20px;
-     line-height: 100%;
-     text-align: left;
- }
- 
- #tumblr {
-     box-shadow: 5px 5px 2px 2px red;
- }
- 
- .memes2 {
-     float: right;
-     padding: 10px;
-     margin: 20px;
-     line-height: 100%;
-     text-align: right;
- }
- 
- #garfield {
-     box-shadow: 1px 1px 5px 5px blue;
- }
- 
- .hair {
-     opacity: 0.1;
-     width: 100px;
-     position: fixed;
-     top: 400px;
-     left: 30px;
- }
- 
- #outro {
-     padding: 100px;
-     clear: right;
- }
- 
- #bye {
-     padding: 20px;
-     text-align: right;
-     border: 1px solid yellow;
- }
- 
- .line1 {
-     border: 1px solid grey;
- }
- 
- .gridshit {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
- }
- 
- .grids {
-     width: 200px;
-     height: 200px;
-     flex-grow: 1;
-     background-position: center;
-     text-align: center;
- }
- 
- .grids p {
-     margin: 0;
- }
- 
- .overlay {
-     position: relative;
-     height: 100%;
-     top: 0;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     opacity: 0;
-     transition: opacity 0.3s ease-in;
- }
- 
- .overlay:hover {
-     opacity: 1;
- }
- 
- .text {
-     /*border: 10px solid white;*/
-     color: white;
-     position: relative;
- }
- 
- .opaque {
-     position: absolute;
-     top: 0;
-     left: 0;
-     background-color: black;
-     height: 100%;
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     opacity: 0.5;
- }
- 
- ._archive {
-     .center-image {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 50%;
-         box-shadow: 5px 5px 2px 2px pink;
-     }
-     .ph1 {
-         /* background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F44026593_2085548868132942_8583590976843415552_o.jpg?v=1571203829375"); */
-         width: 100px;
-         height: 100px;
-         background-size: cover;
-     }
-     .ph2 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F70506553_2604450049576152_4108918911989186560_o.jpg?v=1571203832915");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph3 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42310947_2056902920997537_188664890972438528_o.jpg?v=1571203833993");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph4 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F65021080_2453453998009092_7498612040928329728_o.jpg?v=1571203834005");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph5 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53405386_2278616958826131_5851639151182479360_o.jpg?v=1571203834083");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph6 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42426797_2056347264386436_5820543162757677056_o.jpg?v=1571203834157");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph7 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60817997_2406440342710458_166013993662545920_o.jpg?v=1571203835291");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph8 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F31882979_1865026140185217_8585281080834129920_n.jpg?v=1571203835563");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph9 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60980888_2406440366043789_417035869833134080_o.jpg?v=1571203842629");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph10 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F58698694_592827204557751_5405604032770579511_n.jpg?v=1571212955459");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph11 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53734826_582252668945677_3492109734874021599_n.jpg?v=1571212955690");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
-     .ph12 {
-         background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F094e0e59-544c-40e0-b9bf-6355ee325739.image.jpeg?v=1571214975101");
-         width: 200px;
-         height: 200px;
-         background-size: cover;
-     }
- }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+body {
+    margin: 32px;
+    /* padding: 0; */
+    font-weight: 100;
+    font-family: "Alegreya Sans", sans-serif;
+    /* background-color: black; */
+    /* font-size: 35px; */
+    color: white;
+    background-color: #e0e0e0;
+}
+
+
+/* Home Page */
+
+.home-header-uge-name {
+    /* border: 2px solid white; */
+    align-items: center;
+    padding-top: 15%;
+}
+
+.my-uge-name-home {
+    /* border: red 2px solid; */
+    text-align: center;
+    font-size: 7vw;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(50, 50, 50);
+}
+
+.my-uge-name-home a {
+    /* border: blue 2px solid; */
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.subheader-home {
+    text-align: center;
+    font-size: 1vw;
+    color: rgb(50, 50, 50);
+    letter-spacing: 25px;
+    margin-bottom: 40px;
+}
+
+.site-nav-links-home {
+    /* border: red 1px solid; */
+    /* display: inline; */
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.site-nav-links-home a {
+    border: rgba(0, 0, 0, 0) 5px solid;
+    /* border: red 1px solid; */
+    font-size: 2.5vw;
+    color: rgb(125, 20, 20);
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.socials {
+    /* border: red 2px solid; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    /* border: indigo 2px solid; */
+    padding: 7px;
+    padding-right: 6.8px;
+    font-size: 49px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 20%;
+}
+
+.fa:hover {
+    background-color: rgb(100, 10, 10);
+    opacity: 1;
+}
+
+.fa-facebook {
+    /* border: hotpink 2px solid; */
+    background: #323232;
+    color: #e1e1e1;
+}
+
+.fa-instagram {
+    background: #323232;
+    color: #e1e1e1;
+}
+
+.site-nav-links-home a:hover {
+    border: rgb(50, 50, 50) 5px solid
+}
+
+
+/* Default Header and Nav for Rest of Website */
+
+.my-uge-name {
+    /* border: brown solid 2px; */
+    text-align: left;
+    font-size: 6vmin;
+    /* font-size: 2.5vmax; */
+    margin: 0px;
+    color: #323232
+}
+
+.my-uge-name a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.subheader {
+    text-align: left;
+    margin-left: 6px;
+    font-size: 1.0vmin;
+    color: rgb(50, 50, 50);
+    letter-spacing: 12px;
+    /* margin-bottom: 40px; */
+}
+
+.site-nav {
+    /* border: 1px solid white; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.site-nav-links {
+    /* border: red 1px solid; */
+    /* display: inline; */
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.site-nav-links a {
+    border: rgba(0, 0, 0, 0) 5px solid;
+    color: rgb(125, 20, 20);
+    font-size: 2vmin;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.site-nav-links a:hover {
+    border: rgb(50, 50, 50) 5px solid
+}
+
+.nav-line {
+    position: relative;
+    /* transform: translate(0px, 0px); */
+    border: 2px rgb(50, 50, 50) solid;
+    padding: none;
+    margin: 0px
+}
+
+.nav-line.top {
+    transform: translate(0px, 12px);
+}
+
+.nav-line.bottom {
+    transform: translate(0px, -12px)
+}
+
+
+/* Music Page */
+
+.main-frame {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.about-music-text {
+    /* border: red 2px solid; */
+    /* max-width: 700px; */
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+
+.soundcloud {
+    /* border: red solid 2px; */
+    margin-bottom: 10px;
+}
+
+.sections {
+    color: rgb(50, 50, 50);
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    /* text-decoration: underline; */
+    margin: 10px;
+}
+
+.youtube-embeded {
+    /* border: solid red 2px; */
+    align-content: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+/* Bio Page */
+
+.about-me-top {
+    /* border: blue 2px solid; */
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text {
+    /* border: red 2px solid; */
+    max-width: 550px;
+    /* display: flexbox; */
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 22px;
+    color: rgb(50, 50, 50);
+}
+
+.about-me-photo-main {
+    /* border: solid green 2px; */
+    margin-top: 80px;
+    background-color: black;
+    background-image: url("/assets/triangulated-image.png");
+    background-position: center;
+    max-width: 500px;
+    min-width: 250px;
+    max-height: 800px;
+    min-height: 400px;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.about-me-2 {
+    /* border: blue 2px solid; */
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-photo-1 {
+    /* border: solid green 2px; */
+    background-image: url("/assets/ESPNight1.jpg");
+    background-position: top;
+    max-width: 500px;
+    min-width: 200px;
+    height: 600px;
+    background-size: cover;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.about-me-photo-2 {
+    /* border: solid green 2px; */
+    background-image: url("/assets/playdolls_portrait.jpg");
+    background-position: top;
+    max-width: 500px;
+    min-width: 200px;
+    height: 600px;
+    background-size: cover;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+
+/* Contact Page */
+
+.video-style {
+    border: 2px solid black;
+}
+
+.socse {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    list-style-type: none;
+}
+
+.link {
+    /* display: inline; */
+    /* padding: 20px; */
+    list-style-type: none;
+}
+
+.link a {
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+}
+
+.link2 {
+    color: black
+}
+
+.link3 {
+    color: white;
+    text-align: center;
+}
+
+.headerLinks {
+    color: white;
+    text-align: center;
+}
+
+.shit {
+    padding: 10px;
+    margin: 20px;
+}
+
+.list {
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 100%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.memes1 {
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    line-height: 100%;
+    text-align: left;
+}
+
+#tumblr {
+    box-shadow: 5px 5px 2px 2px red;
+}
+
+.memes2 {
+    float: right;
+    padding: 10px;
+    margin: 20px;
+    line-height: 100%;
+    text-align: right;
+}
+
+#garfield {
+    box-shadow: 1px 1px 5px 5px blue;
+}
+
+.hair {
+    opacity: 0.1;
+    width: 100px;
+    position: fixed;
+    top: 400px;
+    left: 30px;
+}
+
+#outro {
+    padding: 100px;
+    clear: right;
+}
+
+#bye {
+    padding: 20px;
+    text-align: right;
+    border: 1px solid yellow;
+}
+
+.line1 {
+    border: 1px solid grey;
+}
+
+.gridshit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grids {
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+    background-position: center;
+    text-align: center;
+}
+
+.grids p {
+    margin: 0;
+}
+
+.overlay {
+    position: relative;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.text {
+    /*border: 10px solid white;*/
+    color: white;
+    position: relative;
+}
+
+.opaque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+._archive {
+    .center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        box-shadow: 5px 5px 2px 2px pink;
+    }
+    .ph1 {
+        /* background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F44026593_2085548868132942_8583590976843415552_o.jpg?v=1571203829375"); */
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+    }
+    .ph2 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F70506553_2604450049576152_4108918911989186560_o.jpg?v=1571203832915");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph3 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42310947_2056902920997537_188664890972438528_o.jpg?v=1571203833993");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph4 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F65021080_2453453998009092_7498612040928329728_o.jpg?v=1571203834005");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph5 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53405386_2278616958826131_5851639151182479360_o.jpg?v=1571203834083");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph6 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F42426797_2056347264386436_5820543162757677056_o.jpg?v=1571203834157");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph7 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60817997_2406440342710458_166013993662545920_o.jpg?v=1571203835291");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph8 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F31882979_1865026140185217_8585281080834129920_n.jpg?v=1571203835563");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph9 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F60980888_2406440366043789_417035869833134080_o.jpg?v=1571203842629");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph10 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F58698694_592827204557751_5405604032770579511_n.jpg?v=1571212955459");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph11 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F53734826_582252668945677_3492109734874021599_n.jpg?v=1571212955690");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    .ph12 {
+        background-image: url("https://cdn.glitch.com/0f325a18-e6c0-43d8-8711-312bea57f6f1%2F094e0e59-544c-40e0-b9bf-6355ee325739.image.jpeg?v=1571214975101");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+}
