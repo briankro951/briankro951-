@@ -3,6 +3,8 @@
 :root {
     --textColor: #8d8d8d;
     --hidden: #8d8d8d00;
+    --bgColor: #1c1c1c;
+    --hoverBoxSize: 2px;
 }
 
 
@@ -13,8 +15,9 @@ body {
     font-family: "Alegreya Sans", sans-serif;
     /* background-color: black; */
     /* font-size: 35px; */
-    color: rgb(255, 255, 255);
-    background-color: #1c1c1c;
+    /* color: rgb(255, 255, 255); */
+    background-color: var(--bgColor);
+    text-decoration: none;
 }
 
 
@@ -29,14 +32,13 @@ body {
 .my-uge-name-home {
     /* border: red 2px solid; */
     text-align: center;
-    font-size: 7vw;
-    margin: 0px;
-    padding: 0px;
     /* color: #92929200; */
 }
 
 .my-uge-name-home a {
     /* border: blue 2px solid; */
+    font-size: 7vw;
+    margin: 0px;
     padding: 0px;
     text-decoration: none;
     color: var(--textColor);
@@ -55,17 +57,22 @@ body {
     /* display: inline; */
     align-items: center;
     display: flex;
-    list-style-type: none;
 }
 
 .site-nav-links-home a {
-    border: rgba(0, 0, 0, 0) 5px solid;
+    border: rgba(0, 0, 0, 0) var(--hoverBoxSize) solid;
     /* border: red 1px solid; */
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: var(--textColor);
     text-decoration: none;
-    padding-left: 40px;
-    padding-right: 40px;
+    list-style-type: none;
+    padding: 20px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+
+.site-nav-links-home a:hover {
+    border: var(--textColor) var(--hoverBoxSize) solid;
 }
 
 .socials {
@@ -74,6 +81,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 .fa {
     /* border: indigo 2px solid; */
@@ -101,10 +109,6 @@ body {
 .fa-instagram {
     background: #323232;
     color: var(--textColor);
-}
-
-.site-nav-links-home a:hover {
-    border: var(--textColor) 5px solid
 }
 
 

@@ -10,3 +10,7 @@ function toggleMute() {
         video.muted = true;
     }
 }
+
+function nameTypeout() {
+    
+}
