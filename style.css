@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+:root {
+    --textColor: #8d8d8d;
+    --hidden: #8d8d8d00;
+}
+
+
 body {
     margin: 32px;
     /* padding: 0; */
@@ -6,8 +13,8 @@ body {
     font-family: "Alegreya Sans", sans-serif;
     /* background-color: black; */
     /* font-size: 35px; */
-    color: white;
-    background-color: #e0e0e0;
+    color: rgb(255, 255, 255);
+    background-color: #1c1c1c;
 }
 
 
@@ -25,20 +32,20 @@ body {
     font-size: 7vw;
     margin: 0px;
     padding: 0px;
-    color: rgb(50, 50, 50);
+    /* color: #92929200; */
 }
 
 .my-uge-name-home a {
     /* border: blue 2px solid; */
     padding: 0px;
     text-decoration: none;
-    color: rgb(50, 50, 50);
+    color: var(--textColor);
 }
 
 .subheader-home {
     text-align: center;
     font-size: 1vw;
-    color: rgb(50, 50, 50);
+    color: var(--textColor);
     letter-spacing: 25px;
     margin-bottom: 40px;
 }
@@ -55,7 +62,7 @@ body {
     border: rgba(0, 0, 0, 0) 5px solid;
     /* border: red 1px solid; */
     font-size: 2.5vw;
-    color: rgb(125, 20, 20);
+    color: var(--textColor);
     text-decoration: none;
     padding-left: 40px;
     padding-right: 40px;
@@ -88,16 +95,16 @@ body {
 .fa-facebook {
     /* border: hotpink 2px solid; */
     background: #323232;
-    color: #e1e1e1;
+    color: var(--textColor);
 }
 
 .fa-instagram {
     background: #323232;
-    color: #e1e1e1;
+    color: var(--textColor);
 }
 
 .site-nav-links-home a:hover {
-    border: rgb(50, 50, 50) 5px solid
+    border: var(--textColor) 5px solid
 }
 
 
@@ -109,19 +116,20 @@ body {
     font-size: 6vmin;
     /* font-size: 2.5vmax; */
     margin: 0px;
-    color: #323232
+    color: #8d8d8d
 }
 
 .my-uge-name a {
     text-decoration: none;
-    color: rgb(50, 50, 50);
+    color: #8d8d8d;
 }
 
 .subheader {
+    /* border: brown solid 2px; */
     text-align: left;
     margin-left: 6px;
     font-size: 1.0vmin;
-    color: rgb(50, 50, 50);
+    color: var(--textColor);
     letter-spacing: 12px;
     /* margin-bottom: 40px; */
 }
@@ -146,7 +154,7 @@ body {
 }
 
 .site-nav-links a {
-    border: rgba(0, 0, 0, 0) 5px solid;
+    border: #8d8d8d00 5px solid;
     color: rgb(125, 20, 20);
     font-size: 2vmin;
     align-items: center;
@@ -165,7 +173,7 @@ body {
 .nav-line {
     position: relative;
     /* transform: translate(0px, 0px); */
-    border: 2px rgb(50, 50, 50) solid;
+    border: 2px var(--textColor) solid;
     padding: none;
     margin: 0px
 }
